@@ -1,0 +1,177 @@
+/* базові параметри */
+* {
+    margin: 0;
+    padding: 0;
+    font-family:  Roboto,'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(237, 232, 232);
+}
+
+/* основна інформація сайта */
+main {
+    background-image: url(https://gdb.rferl.org/7200dd13-3d92-42c7-92b5-5ee01da1ee50_w1200_r1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+main>div {
+    background-color: rgba(232, 230, 230, 0.79);
+}
+main>div>section>h2{
+    justify-self: center;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+/* розділ про історію */
+.history_title {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: 25px;
+   
+}
+.history_title>h2 {
+    margin-top: 50px;
+}
+.history_text{
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 500;
+} 
+.history_nav{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(1, 247, 67);
+    padding: 10px;
+    width: 1482.8px;
+    position: fixed;
+}
+.history_nav>a{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: black;
+}
+.history_nav>a:hover{
+    color: white;
+}
+#name{
+    margin-top: 50px;
+}
+
+/* гарні місця */
+.interesting_places {
+    padding-top: 80px;
+    background-image: url(https://zaborona.com/wp-content/uploads/2022/06/berdyansk-foto.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.interesting_places>h1 {
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.places {
+    margin-bottom: 40px;
+    font-size: 25px;
+    text-align: center;
+}
+#last_places{
+    margin-bottom: 0;
+}
+.places>p {
+    background-color: aliceblue;
+}
+.places>div {
+    width: 80px;
+    margin-left: 700px;
+    margin-bottom: 18px;
+    font-size: 35px;
+}
+.places>img {
+    width: 800px;
+}
+#park_wheel {
+    width: 270px;
+    margin-left: 650px;
+}
+#playground{
+    width: 500px;
+    margin-left: 530px;
+}
+.playground_text>a{
+    text-decoration: none;
+}
+.playground_text{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#spit{
+    width: 300px;
+    margin-left: 620px;
+}
+#lighthouse{
+    width: 330px;
+    margin-left: 620px;
+}
+.lighthouse_text{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.spit_text{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.seaside{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.park_wheel_text{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* галерея */
+
+.galery{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(152, 242, 212, 0.784);
+    height: auto;
+}
+.galery>img{
+    width: 900px;
+    margin-top: 15px;
+}
+.table{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td{
+    padding: 8px;
+}
